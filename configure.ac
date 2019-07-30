@@ -3,11 +3,12 @@ AC_INIT([automake-template],[0.3])
 
 AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_MACRO_DIR([m4])
-
 AM_INIT_AUTOMAKE([foreign subdir-objects])
-AC_PROG_CC
-AC_PROG_CXX
 AM_SILENT_RULES([yes])
 LT_INIT
+
+AC_PROG_CC
+AC_PROG_CXX
+
 AC_CONFIG_FILES(GNUMakefile)
 AC_OUTPUT

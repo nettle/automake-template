@@ -1,8 +1,5 @@
 AC_PREREQ([2.69])
-AC_INIT([bbi],[0.2])
-
-#AC_CONFIG_AUX_DIR(build-aux)
-#AC_CONFIG_MACRO_DIRS([m4])
+AC_INIT([automake-template],[0.3])
 
 AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_MACRO_DIR([m4])

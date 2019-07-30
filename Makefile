@@ -26,8 +26,8 @@ clean-all : ## Remove all generated files
 	rm -f GNUMakefile.in GNUMakefile
 	rm -f COPYING INSTALL
 	rm -f src/*.o *.o
-	rm -rf src/.deps .deps
-	rm -f src/.dirstamp .dirstamp
+	rm -rf src/.deps .deps .libs
+	rm -f src/.dirstamp .dirstamp libtool
 	rm -f test
 
 build     : GNUMakefile ## Build
